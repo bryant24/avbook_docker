@@ -57,7 +57,7 @@ RUN apt-get install -y git && \
     cd ${FILE_PATH} && \
 #    git config --global http.sslVerify false && \
 #    git config --global http.postBuffer 1048576000 && \
-    git clone --depth=1 https://github.com/xiaojunxi2008/avbook.git && \
+    git clone --depth=1 https://github.com/bryant24/avbook.git && \
     apt-get install -y wget && \
     apt-get install zip unzip && \
     wget https://getcomposer.org/composer.phar && \
