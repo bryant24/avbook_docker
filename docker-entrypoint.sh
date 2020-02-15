@@ -81,7 +81,7 @@ http
         default_type        application/octet-stream;
         include /etc/nginx/conf.d/*.conf;
 	server { 
-        	listen 8999;
+        	listen 80;
         	server_name  _;
        		location / {
             		proxy_pass  http://127.0.0.1:8000;
